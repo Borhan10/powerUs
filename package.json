@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "cypress": "^12.16.0",
+    "prettier": "^2.8.8"
+  },
+  "name": "powerus",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "smokeTestCases": "npx cypress run --spec 'cypress/e2e/newUserCourses.cy.js' --browser chrome",
+    "check": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC"
+}
